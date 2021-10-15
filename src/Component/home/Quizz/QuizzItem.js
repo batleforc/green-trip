@@ -1,8 +1,15 @@
 import React from "react";
 
-const QuizzItem = ({ text, onClick = () => console.log("JOJO") }) => {
+const QuizzItem = ({
+  text,
+  onClick = () => console.log("JOJO"),
+  className,
+}) => {
   return (
-    <p onClick={onClick} className="w-2/5 m-1 bg-gray-300 rounded-md">
+    <p
+      onClick={onClick}
+      className={`w-2/5 m-1 bg-gray-300 rounded-md ${className}`}
+    >
       {text}
     </p>
   );

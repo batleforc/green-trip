@@ -5,3 +5,11 @@
 .flexBasisQuizz {
   flex-basis: 33%;
 }
+
+.App {
+  margin-bottom: 50px;
+}
+
+.quizzMain {
+  margin-bottom: 50px;
+}

@@ -9,7 +9,7 @@ const Home = () => {
       <h1>Home</h1>
       <div className="flex-col flex w-screen">
         <Card Content={UpperCard} />
-        <Card Content={QuizzCard} />
+        <Card Content={QuizzCard} className="quizzMain" />
       </div>
     </div>
   );
